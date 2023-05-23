@@ -1,0 +1,229 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 3800px;
+	
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	top:0;
+}
+.menu{
+	width: 100%;
+	background-color: rgba(0, 153, 0, 0.8);
+	overflow: auto;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 60px;
+}
+li{
+   float: left;
+}
+li a{
+	background: #fd5v93;
+	width: 130px;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	color: #f2f2f2;
+	letter-spacing: 0.8px;
+}
+li a:hover{
+	color: #fff;
+	font-size: 20px;
+	opacity: 0.5;
+}
+.Search{
+	margin-top: 15px;
+	float: right;
+	margin-right: 100px;
+}
+button{
+	border-radius: 0 5px 5px 0;
+	float: right;
+	background: orange;
+	border: none;
+	padding: 7px;
+	cursor: pointer;
+	font-size: 14px;
+	color: brown;
+}
+.searchbox:hover{
+	color: white;
+	background: black;
+}
+input[type=text]{
+	padding: 3px;
+	border: none;
+	font-size: 14px;
+}
+.loginbtn{
+	margin-left: 2px;
+	margin-top: 13px;
+   font-family: sans-serif;
+	background: transparent;
+	letter-spacing: 0.5px;
+	font-size: 18px;
+	color: #f2f2f2;
+}
+.loginbtn:hover{
+	color: #fff;
+	opacity: 0.4;
+}
+.avater{
+	width: 100%;
+	text-align: center;
+	
+}
+.avater img{
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 38px;
+	text-align: center;
+	padding: 10px;
+}
+#loginform{
+	display: none;
+}
+.signinform{
+	position: relative;
+	top: 35px;
+	width: 500px;
+	height: 620px;
+	margin: 50px auto;
+	background-color:rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+	box-shadow: rgba(0, 0, 0, 0.7);
+	padding: 25px;
+	
+}
+.formgroup{
+	width: 100%;
+	margin: 0 0 0 8px;
+	padding: 5px;
+
+}
+label{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+}
+input{
+	font-size: 14px;
+	line-height: 24px;
+}
+.formcontrol{
+	width: 93%;
+	padding: 5px;
+}
+i{
+	margin: -35px;
+	color: darkgray;
+
+}
+.btn-primary{
+	width: 93%;
+	margin-top:5px ;
+	margin-left: 5px;
+	padding: 10px;
+	color: white;
+	background-color: darkblue;
+	text-transform: uppercase;
+}
+.btn-primary:hover{
+	cursor: pointer;
+	color: darkblue;
+	background-color: white;
+}
+.Check{
+	margin-right: 4px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.forgetid{
+	float: right;
+	margin-right: 28px;
+}
+.signinlink{
+	font-size: 16px;
+	color: #fff;
+	margin-left: 210px;
+	}
+.Social-icons{
+	width: 100%;
+	align-items: center;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	margin-left: 180px;
+	justify-content: space-randomly;
+	display: flex;
+}
+.social-icon{
+	display: flex;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 1.4rem;
+	align-items: center;
+}
+.facebook{
+	color: #fff;
+	background-color: #385998;
+}
+.instagram{
+	color: #fff;
+	background: linear-gradient(rgb(243, 5, 171),rgb(205, 95, 4), yellow);
+}
+.google{
+	color: #fff;
+	background-color: #ca3224;
+}
+.linkedin{
+	color: #fff;
+	background-color: #0e76ab;
+}
+.signuplink{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+	color: aqua;
+}
+.signuplink a{
+	margin-left: 5px;
+}
+
+

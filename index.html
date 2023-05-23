@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Transparent Login Form</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font.awsome.min.css">
+</head>
+<style>
+	body{
+		background-image:url('cover.jpg') ;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		height: 100vh;
+	}
+</style>
+<body>
+	<div class="header">
+		<nav class="menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Design</a></li>
+				<li><a href="">Contact</a></li>
+				<li><button class="loginbtn" onclick="document.getElementById('loginform')
+				.style.display='block'" style="width:auto;">Login</button></li>
+			</ul>
+			<form class="Search">
+				<input type="text" placeholder="Search">
+				<button class="searchbox">Search</button>
+			 </form>
+		</nav>
+	</div>
+	
+		<form action="" id="loginform" class="signinform">
+			<div class="avater">
+				<img src="images/register.jpg" alt="">
+			</div>
+			<h1>Login</h1>
+			<div class="formgroup">
+				<label for="">Email or Phone Number</label>
+				<input type="Email or Number" placeholder="Enter Email or Phone" class="formcontrol">
+				<i class="fa fa-envelope"></i>
+			</div>
+			<div class="formgroup">
+				<label for="">User Name</label>
+				<input type="User Name" placeholder="Enter User Name" class="formcontrol">
+				<i class="fa fa-user"></i>
+			</div>
+			<div class="formgroup">
+				<label for="">Password</label>
+				<input type="Password" placeholder="Enter Password" class="formcontrol">
+				<i class="fa fa-lock"></i>
+			</div>
+			<div class="formgroup">
+				<input type="Submit" value="Signin" class="btn-primary">
+			</div>
+			<div class="formgroup">
+				<label for=""></label>
+				<input type="checkbox" id="Checkbox" class="Check"><span>Remember me</span>
+				<span class="forgetid"><a href="#">Forget Password?</a></span>
+			</div>
+			<span class="signinlink">Or login with</span>
+			<div class="Social-icons">
+				<div class="social-icon instagram"><span class="fa fa-instagram"></span></div>
+				<div class="social-icon facebook"><span class="fa fa-facebook"></span></div>
+				<div class="social-icon linkedin"><span class="fa fa-linkedin"></span></div>
+				<div class="social-icon google"><span class="fa fa-google"></span></div>
+            </div>
+			<div class="signuplink">
+				Don't have a account?<span class="signin"><a href="#">Sign up here.</a></span>
+			</div>
+		</form>
+	
+	
+</body>
+</html>
